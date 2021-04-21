@@ -14,13 +14,35 @@
  *= require_self
  */
 
+/* method for scroll in page with link correctly */
 
- html {
-    scroll-behavior: smooth;
-    scroll-padding: 65px;
-  }
-  
-.container{
+html {
+  scroll-behavior: smooth;
+  scroll-padding: 65px;
+}
+
+/* color background container */
+
+.container {
   background-color: #bcc5ff;
 }
-  
+
+/* color background page  */
+
+.body {
+  background-color: #FFCC80;
+}
+
+.page {
+  background-color: #FFCC80;
+}
+
+/* color background jumbotron and somethings ^^ */
+.pagejum {
+  background-color: #FFCC80;
+  background-color: rgba(0, 0, 0, 0.1);
+  background-image: url("https://cdn.discordapp.com/attachments/318828901931548682/834189911568416808/binary-4791836_1920.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height:300px;
+}
