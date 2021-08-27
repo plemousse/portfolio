@@ -1,10 +1,12 @@
+<!-- grid cards -->
 <div class="row d-flex justify-content-center">
-  <div class="card m-5 shadow" style="width: 15rem">
+  <!-- Copyright -->
+  <div class="card m-5 shadow text-center" style="width: 15rem">
     <img
     src="https://mdbootstrap.com/img/new/standard/city/062.jpg"
     class="card-img-top mt-3 border-3 border-dark rounded "
-    alt="..."
-  />
+    alt="..."/>
+    <!-- single card -->
       <div class="card-body">
         <h5 class="card-title">Title project</h5>
         <p class="card-text">
@@ -21,54 +23,69 @@
       <div class="card-footer text-center">
         <a href="#" class="card-link">Heroku</a>
         <a href="#" class="card-link">Github</a>
-      </div>
-    </div>
-      <div class="card m-5 shadow" style="width: 15rem">
-    <img
-    src="https://mdbootstrap.com/img/new/standard/city/062.jpg"
-    class="card-img-top mt-3 border-3 border-dark rounded "
-    alt="..."
-  />
-      <div class="card-body">
-        <h5 class="card-title">Title project</h5>
-        <p class="card-text">
-          Description:<br>
-          Some quick example text to build on the card title and make up the bulk of the
-          card's content.
-        </p>
-      </div>
-      <div class="card-footer">
-        <p class="card-text">
-          Compétence:<br>
-        </p>
-      </div>
-      <div class="card-footer text-center">
-        <a href="#" class="card-link">Heroku</a>
-        <a href="#" class="card-link">Github</a>
-      </div>
-    </div>
-      <div class="card m-5 shadow" style="width: 15rem">
-    <img
-    src="https://mdbootstrap.com/img/new/standard/city/062.jpg"
-    class="card-img-top mt-3 border-3 border-dark rounded "
-    alt="..."
-  />
-      <div class="card-body">
-        <h5 class="card-title">Title project</h5>
-        <p class="card-text">
-          Description:<br>
-          Some quick example text to build on the card title and make up the bulk of the
-          card's content.
-        </p>
-      </div>
-      <div class="card-footer">
-        <p class="card-text">
-          Compétence:<br>
-        </p>
-      </div>
-      <div class="card-footer text-center">
-        <a href="#" class="card-link">Heroku</a>
-        <a href="#" class="card-link">Github</a>
-      </div>
-    </div>
-  </div>
+        <!-- Button trigger modal -->
+        <div class="card-footer">
+          <button type="button" class="btn btn-primary" data-mdb-toggle="modal" data-mdb-target="#exampleModal">Zoom</button>
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"
+>
+            <div class="modal-dialog modal-xl">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Title project</h5>
+                  <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div id="carouselExampleInterval" class="carousel slide" data-mdb-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" data-mdb-interval="10000">
+                        <img
+        src="https://mdbootstrap.com/img/new/slides/041.jpg"
+        class="d-block w-100"
+        alt="..."
+      />
+                        </div>
+                        <div class="carousel-item" data-mdb-interval="2000">
+                          <img
+        src="https://mdbootstrap.com/img/new/slides/042.jpg"
+        class="d-block w-100"
+        alt="..."
+      />
+                          </div>
+                          <div class="carousel-item">
+                            <img
+        src="https://mdbootstrap.com/img/new/slides/043.jpg"
+        class="d-block w-100"
+        alt="..."
+      />
+                            </div>
+                          </div>
+                          <button
+    class="carousel-control-prev"
+    data-mdb-target="#carouselExampleInterval"
+    type="button"
+    data-mdb-slide="prev"
+  >
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button
+    class="carousel-control-next"
+    data-mdb-target="#carouselExampleInterval"
+    type="button"
+    data-mdb-slide="next"
+  >
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>

@@ -67,7 +67,6 @@ gem 'faker'
 gem 'table_print'
 gem 'htmlbeautifier'
 
-#Don't add this for heroku!
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller'
